@@ -5,7 +5,6 @@ public class Main {
     private static int result;
     private static int radix;
     private static String number;
-    private static char index;
 
     public static void main(String[] args) {
         int value = 0;
@@ -19,7 +18,7 @@ public class Main {
         System.out.print("Введите исходный разряд системы : ");
         radix = skaner.nextInt();
         System.out.print("Введите число для перевода в десятичную систему: ");
-        number = String.valueOf(skaner.nextInt());
+        number = String.valueOf(skaner.next());
         num = String.valueOf(number);
         fromXtoTen(radix, number, num);
         System.out.println(number + " (" + radix + ") -> " + finalR + " (10)");
@@ -107,7 +106,7 @@ public class Main {
         int value = 0;
         int i = 0;
         int n = number.length();
-        index = number.charAt(i);
+        char index = number.charAt(i);
         while (n > 0) {
             index = number.charAt(i);
             switch (index) {
