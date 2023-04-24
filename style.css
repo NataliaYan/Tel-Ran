@@ -1,0 +1,22 @@
+body {
+    background-color: #d7deeb;
+  }
+  p {
+    font-size: 15px;
+  }
+  b {
+    font-size: 25px;
+  }
+  li {
+    font-size: 18px;
+    list-style: none;
+  }
+  strong {
+    font-size: 16px;
+  }
+  a {
+    background-color: white;
+    border-radius: 100%;
+    font-size: 20px;
+  }
+ 
