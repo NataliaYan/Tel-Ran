@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #e4e4e4;
+}
+.all-blok {
+  position: absolute;
+  border-radius: 10px;
+}
+.blok {
+  position: relative;
+  width: 1240px;
+  height: 840px;
+  padding: 2%;
+}
+
+.blok_1 {
+  background-color: #f2f2f2;
+  height: 66%;
+  width: 28%;
+}
+
+.blok_2 {
+  background-color: #ffffff;
+  height: 8%;
+  width: 68%;
+  left: 32%;
+}
+.blok_3 {
+  background-color: #ffffff;
+  height: 56%;
+  width: 33%;
+  left: 32%;
+  top: 13%;
+}
+.blok_4 {
+  background-color: #f8f8f8;
+  height: 27%;
+  width: 33%;
+  top: 13%;
+  left: 67%;
+}
+.blok_5 {
+  background-color: #ffffff;
+  height: 27%;
+  width: 33%;
+  left: 67%;
+  top: 42%;
+}
