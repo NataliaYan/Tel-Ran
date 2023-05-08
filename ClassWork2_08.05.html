@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
+      .container {
+        display: flex;
+        height: 60%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .rigth {
+        flex: 1;
+        background: blue;
+        align-items: start;
+      }
+      .main {
+        flex: 2;
+        background: rgb(255, 0, 132);
+        align-items: start;
+      }
+      .left {
+        flex: 1;
+        background: green;
+        align-items: end;
+      }
+
+      header,
+      footer {
+        flex-direction: row;
+        display: flex;
+        height: 20%;
+        width: 100%;
+      }
+      header {
+        background: orange;
+      }
+      footer {
+        background: red;
+      }
+      section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      article {
+        flex: calc(0.95 / 2);
+        background: #73d5b6;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <div class="container">
+      <section class="left"></section>
+      <section class="main"></section>
+      <section class="rigth"></section>
+    </div>
+    <footer></footer>
+  </body>
+</html>
