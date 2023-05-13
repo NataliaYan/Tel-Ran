@@ -1,8 +1,8 @@
 // расчет и вывод на экран 10%  от введенного значения пользователем
-let value = prompt("Введите число:");
+let value = +prompt("Введите число:");
 let percent = 0.1;
 let discount = value *percent;
-alert(`10% от ${value} составляет ${discount}`);
+console.log(`10% от ${value} составляет ${discount}`);
 
 // получить 2 числа и вывести наибольшее
 let number_1 = +prompt("Введите первое число:");
@@ -30,7 +30,7 @@ if (number<fix_number){
 let user_name = prompt("What is your name?");
 let age = +prompt("How old are you?");
 if (age>=18){
-    alert(`Hello, ${user_name} !`);
+    console.log(`Hello, ${user_name}!`);
 } else {
-    alert(`Hi, ${user_name} !`);
+    console.log(`Hi, ${user_name}!`);
 }
