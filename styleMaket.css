@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;400&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  }
+body {
+  background-color: #e4e4e4;
+  width: 98%;
+  position: fixed;
+}
+.all-blok {
+  position: absolute;
+  border-radius: 0.5em;
+}
+.blok {
+  position: relative;
+  min-width: 77.5em;
+  min-height: 37.5em;
+  padding: 2%;
+}
+
+.blok_1 {
+  background-color: #f2f2f2;
+  height: 95%;
+  width: 28%;
+  padding: 1%;
+  overflow: hidden;
+}
+
+.blok_2 {
+  background-color: #ffffff;
+  height: 10%;
+  width: 68%;
+  left: 32%;
+  padding: 1%;
+}
+.left {
+  font-size: 2.5em;
+  bottom: auto;
+}
+.blok_3 {
+  background-color: #ffffff;
+  height: 83%;
+  width: 68%;
+  left: 32%;
+  top: 16%;
+  padding: 1%;
+  overflow: hidden;
+}
+h1 {
+  font-size: 1.6em;
+  top: 0em;
+  left: 1.25em;
+}
+p {
+  font-size: 1.2em;
+  padding: 0.5em;
+}
+.img_blok_1 {
+  border-radius: 0.5em;
+  width: 95%;
+}
+.img_blok_3x6 {
+  border-radius: 0.5em;
+  width: 33%;
+}
+.img_blok_3x3 {
+  border-radius: 0.5em;
+  height:auto;
+  width: 33%;
+}
+.img_blok_3x1 {
+  border-radius: 0.5em;
+  max-width:100%;
+  height:auto;
+   
+  
+}
+.img_blok_3xleft {
+  border-radius: 0.5em;
+  height:auto;
+  max-width:33%;
+  float: left;
+  
+  
+}
+li {
+  font-size: 1.2em;
+  list-style: none;
+}
+
+.buttom {
+  background-color: white;
+  border-radius: 100%;
+  font-size: 1.2em;
+}
+.comment {
+  font-size: 1em;
+  padding-left: 2.5em;
+}
+
+.box {
+  font-size: 2em;
+  position: absolute;
+  top: 0.5em;
+  padding: 0% 0% 60% 75%;
+}
